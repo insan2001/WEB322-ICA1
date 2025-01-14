@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
 
 app.get("/about", (req, res) => {
 
-    res.json({ course: "WEB322", section: `'student':"Insan Jeyakkumar"`, task: "In-class Assignment 1", date: new Date()});
+    res.json({ course: "WEB322", student:"Insan Jeyakkumar", task: "In-class Assignment 1", date: new Date()});
 
 });
 
